@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Repositories Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GitHub Repositories Viewer</h1>
+    </header>
+    <main>
+      <section>
+        <label for="username">Enter GitHub Username:</label>
+        <input type="text" id="username" placeholder="Enter GitHub username" />
+        <button onclick="getRepositories()">Get Repositories</button>
+      </section>
+      <section id="repositories-list">
+        <!-- Display GitHub repositories here -->
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 GitHub Repositories Viewer</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
